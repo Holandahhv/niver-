@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Para Tete</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="hp">
+
+<div class="particulas"></div>
+
+<div class="intro">
+
+  <img src="imagens/my potter.jpg" class="foto">
+
+  <h1 class="titulo">  Para my potter</h1>
+
+  <p class="mensagem">
+    Fiz de coração, espero que goste
+  </p>
+
+  <button onclick="entrar()">Abrir</button>
+
+</div>
+
+<script>
+function entrar() {
+  document.body.classList.add("fade");
+  setTimeout(() => {
+    window.location.href = "livro.html";
+  }, 1200);
+}
+</script>
+
+</body>
+</html>
